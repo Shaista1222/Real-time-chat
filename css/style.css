@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    display: block;
+    /* responsvily in center */
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+body {
+    background-image: linear-gradient(rgb(67, 42, 94), rgb(5, 3, 18));
+    height: 100vh;
+}
+
+.container {
+    max-width: 1000px;
+    /* background-color: bisque; */
+    margin: auto;
+    color: rgb(6, 6, 5);
+    border: 2px solid rgb(137, 78, 6);
+    /*responsivily  */
+    height: 60vh;
+    padding: 33px;
+    margin-bottom: 23px;
+    overflow-y: auto;
+}
+
+.message {
+    background-color: antiquewhite;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+
+.right {
+    float: right;
+    /*m left or righg=t dono m allow nae kr raha*/
+    clear: both;
+}
+
+#send-container {
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 955px;
+    width: 100%;
+}
+
+#messageInp {
+    width: 92%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+
+.btn {
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 34px;
+}
